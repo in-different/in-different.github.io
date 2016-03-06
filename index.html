@@ -99,24 +99,34 @@ layout: default
 			<h2>Get in touch</h2>
 			<p>Ipsum dolor tempus commodo adipiscing</p>
 		</header>
-		<form action="#" method="POST">
+
+		<form action="//formspree.io/indifferent.viseu@gmail.com" method="POST">
 			<div class="container 75%">
 				<div class="row uniform 50%">
 					<div class="6u 12u$(xsmall)">
 						<input name="name" placeholder="Name" type="text" />
 					</div>
+
 					<div class="6u$ 12u$(xsmall)">
 						<input name="email" placeholder="Email" type="email" />
 					</div>
+
 					<div class="12u$">
 						<textarea name="message" placeholder="Message" rows="4"></textarea>
 					</div>
 				</div>
 			</div>
+
 			<ul class="actions">
 				<li><input type="submit" class="special" value="Submit" /></li>
 				<li><input type="reset" class="alt" value="Reset" /></li>
 			</ul>
+
+			<input type="hidden" name="_subject" value="Nova mensagem" />
+
+			<input type="hidden" name="_next" value="elements.html" />
+
+			<input type="text" name="_gotcha" style="display:none" />
 		</form>
 	</div>
 </section>
