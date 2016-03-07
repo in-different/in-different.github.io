@@ -1,3 +1,11 @@
 #banner {
 	background-position: center;
 }
+
+.item {
+	background-color: white;
+}
+
+.item h4 {
+	text-transform: initial;
+}
